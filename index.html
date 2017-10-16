@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content ="initial-scale=1.0, width=device-width" />
+	</head>
+	<body>
+		<table id = 'formTable'></table>
+		<script src='scripts/formTable.js'></script>
+		<script>
+			const data = [{"REQUESTID":"B4Z7V","CDDCASETYPE":"CDD","CDDCASEID":"CDD00034251","VERSIONNUMBER":1,"STATUSDESCRIPTION":"In Progress","SUBSTATUSDESCRIPTION":"Initiated","ACTOR":"MakeCDD","CURRENT_STAGE":"Maker","ISLATEST":"Y","INBOXTASKID":"24014","CREATEDDATE":"May 21, 2015 12:59:06 PM","TRUNC(A.UPDATEDDATE)":"Aug 3, 2017 12:00:00 AM"},{"REQUESTID":"BCASC","CDDCASETYPE":"CDD","CDDCASEID":"92641","VERSIONNUMBER":3,"STATUSDESCRIPTION":"Under Review","SUBSTATUSDESCRIPTION":"Initiated","ACTOR":"MakeCDD","CURRENT_STAGE":"Maker","ISLATEST":"Y","INBOXTASKID":"354986","CREATEDDATE":"Apr 15, 2017 3:14:02 AM","TRUNC(A.UPDATEDDATE)":"Jul 14, 2017 12:00:00 AM"}];
+			
+			createTable(data, 'formTable');
+			//fetchDataToForm('/ProdCon/jumpCaseDetails', 'formTable');
+		</script>
+	</body>
+</html>
